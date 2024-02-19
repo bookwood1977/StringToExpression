@@ -2,17 +2,15 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <Company>Codecutout</Company>
-    <Authors>Alex Davies</Authors>
-    <Description>StringToExpression supports the compiling a domain specific string into a .NET expression.
+    <Company>Fork</Company>
+    <Authors>mbu</Authors>
+    <Description>Fork to StringToExpression (seems no more maintenance) , updated any nuget packaged avoiding vulnerabilities. (
 
 Out of the box configuration is provided for parsing arithmetic expressions and for parsing OData filter strings. Although can be configured to parse string of any format</Description>
-    <Copyright>Copyright ©  2017</Copyright>
-    <PackageLicenseUrl>https://github.com/codecutout/StringToExpression/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/codecutout/StringToExpression</PackageProjectUrl>
+    <Copyright>Copyright ©  2024</Copyright>
     <PackageTags>Expression Filter OData Arithmetic DSL</PackageTags>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.1.1</Version>
+    <Version>2.0.1</Version>
     <PackageReleaseNotes>Add checks to prevent keywords from being identified within property names.</PackageReleaseNotes>
   </PropertyGroup>
 
